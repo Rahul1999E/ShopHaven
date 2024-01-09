@@ -1,0 +1,124 @@
+* {
+    font-family: "Roboto", sans-serif;
+    padding:0;
+    margin: 0;
+  }
+
+  body{
+    width:100vw;
+    height: 100vh;
+  }
+
+  .header{
+    background-image: linear-gradient(to right,#ba68c8, #ce93d8);
+    width:100vw;
+
+    
+  }
+
+  .navbar-brand{
+    color: white !important;
+    padding:10px;
+    margin: 10px;
+    font-family: 'Playfair Display', serif;
+  
+  font-size: 1.7rem;
+  position: relative;
+  left: 2rem;
+}
+
+.container{
+  position: relative;
+  top: 20px;
+  width: 100vw;
+  width: 100vh;
+
+  display:grid;
+  justify-content: center;
+
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px 50px;
+
+  }
+
+  .card-details{
+
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+
+
+  }
+
+ #image{
+    display: block;
+    margin-top: 8px;
+    margin-left: auto;
+
+    margin-right: auto; 
+  
+     width: 10rem;
+     height:13rem
+}
+
+.main-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  text-align: center;
+}
+
+.product img {
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.product h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product p {
+  color: #777;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.product strong {
+  color: #e74c3c;
+  font-size: 18px;
+}
+
+#particular {
+ display:flex;
+}
+
+#particular-product{
+height: 90vh;
+ width : 30vw;
+}
+#particular-product img {
+
+  height: 40vh;
+ width : 20vw;
+}
+#particular-button{
+  width:10rem
+}
